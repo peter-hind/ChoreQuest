@@ -5,11 +5,11 @@ The project allows parents to create chores and rewards worth (fairly arbitrary)
 
 <img align='right' src="https://repository-images.githubusercontent.com/731943264/c704739b-2021-4850-bb42-098a7abdef70" width="230">
 
-👨‍👩‍👧‍👦 - First time users create and avatar and a family
+👨‍👩‍👧‍👦 - First time users create an avatar and a family
 
 🙆🏻‍♀️ - Other family members then join that family
 
-👩‍👦 - Users are separated as either Parent or Child - Parent has admin roles
+👩‍👦 - Users are defined as either Parent or Child - Parent has admin role
 
 🙎🏻‍♂️ - Parents can create chores and rewards
 
