@@ -1,6 +1,21 @@
-# TODO App
+# ChoreQuest!
+## An app for Parents to put their kids to work doing tasks around the house!
 
-For this challenge, we will build a todo app (which is a common way to practice a new technology), using the full stack! From the database to the server, the API client, React and React Query, this app will ask you to use everything you've learned.
+The project allows parents to create chores and rewards worth (fairly arbitrary) points values. The kids can then take on the tasks, earn the points, and claim the rewards! 
+
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+
+👨‍👩‍👧‍👦 - First time users create and avatar and a family
+
+🙆🏻‍♀️ - Other family members then join that family
+
+👩‍👦 - Users are separated as either Parent or Child - Parent has admin roles
+
+🙎🏻‍♂️ - Parents can create chores and rewards
+
+🧒🏻 - Kids can take on chores and claim rewards - but parental approval is required!
+
+💏 - Parents can assign chores directly if necessary (in case the chore is... boring 😒)
 
 ## Setup
 
