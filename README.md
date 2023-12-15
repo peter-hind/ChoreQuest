@@ -3,7 +3,7 @@
 
 The project allows parents to create chores and rewards worth (fairly arbitrary) points values. The kids can then take on the tasks, earn the points, and claim the rewards! 
 
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align='right' src="https://repository-images.githubusercontent.com/731943264/c704739b-2021-4850-bb42-098a7abdef70" width="230">
 
 👨‍👩‍👧‍👦 - First time users create and avatar and a family
 
@@ -17,78 +17,34 @@ The project allows parents to create chores and rewards worth (fairly arbitrary)
 
 💏 - Parents can assign chores directly if necessary (in case the chore is... boring 😒)
 
-## Setup
+## Demo
 
-### 0. Cloning and installation
+### Check out our live demo and presentation on YouTube!
 
-- [ ] Clone this repo, navigate to it, install packages, and start the server with `npm run dev`
-  <details style="padding-left: 2em">
-    <summary>Tip</summary>
+The ChoreQuest team presented our work to an audience of about 50 people and gave a live demo with some background info about the project.
 
-  You may also want to start a new branch
+Check it out below: 👇🏻
 
-  ```sh
-  cd todo-full-stack-query
-  npm i
-  git checkout -b <branchname>
-  npm run dev
-  ```
 
-  </details>
+[![Video](https://img.youtube.com/vi/C__oGHLLBVA/maxresdefault.jpg)](https://www.youtube.com/watch?v=C__oGHLLBVA)
 
-- [ ] See the designs [here](http://localhost:5173/designs/index.html)
+## The Future
+### Issues and Updates
 
-<details>
-  <summary>More about using <code>npm</code> vs <code>npx</code></summary>
+This project was originally developed under a 5 day time constraint. Believe it or not, it doesn't yet have all the functionality we want! The following updates are in the pipeline:
 
-- When running knex, run `npm run knex <command>`, e.g. `npm run knex migrate:latest` rather than using `npx`
-</details>
+* React Native rebuild for mobile applications
+* Multiple Avatar sets
+* Reward and chore editing
+* Confirmation modals for important choices
+* Shared Family options
+* Chore urgency for points bonus
+* Diminishing returns on regularly completed chores
 
----
+#### Bugs
 
-## Requirements
+We are aware of some issues logging in / signing up on certain browsers, and are working to fix the problems.
+Given the quick nature of the product, some of the codebase is in need of major overhaul/refactoring, which we will undertake as we implement new features.
 
-Here's a list of steps in case they are useful. You can build in any order you like though ;)
-
-## Back end (Server-side)
-
-### 1. Building the database
-
-- [ ] Design a database to store a list of tasks, e.g. task details, priority, completed yes/no
-- [ ] Build the migrations and seed data
-
-### 2. Building the API
-
-- [ ] Build an API (back end route) to get the information from your database (list, add, update and delete)
-- [ ] Test your API with Insomnia
-
-## Front end (Client-side)
-
-### 3. Setting the stage
-
-- [ ] Build a React component with static html
-- [ ] Follow the [design](./public/designs/index.html) template for classNames and html element layout
-
-### 4. Building the API client
-
-- [ ] Build API client in the front end
-
-### 5. Querying Data 
-
-- [ ] Write a query with the `useQuery` hook to fetch the task data from the API
-- [ ] Mutate data with the `useMutation` hook to create, update, and delete task data via the API 
-
----
-
-## Stretch
-
-<details>
-  <summary>More about stretch challenges</summary>
-
-- Forms can be tough to build accessibly. First ensure all parts of your form can be reached and used with keyboard-only navigation. Then test your form page with the WAVE browser extension, and fix any accessibility issues it detects
-
-</details>
-
----
-
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=todo-full-stack-query)
+## Feedback
+### Please get in touch with any questions or suggestions!
